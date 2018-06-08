@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "wtf-honeybot-core"
-version = "0.3-1"
+version = "0.4-1"
 -- LuaDist source
 source = {
-  tag = "0.3-1",
+  tag = "0.4-1",
   url = "git://github.com/LuaDist-testing/wtf-honeybot-core.git"
 }
 -- Original source
 -- source = {
 --    url = "git+https://github.com/honeybot/wtf-honeybot-core",
---    tag = "0.3"
+--    tag = "0.4"
 -- }
 description = {
    homepage = "https://github.com/honeybot/wtf-honeybot-core",
@@ -19,7 +19,9 @@ description = {
 dependencies = {
    "wtf >= 0.2",
    "lua-cjson >= 2.1",
-   "lua-resty-reqargs >= 1.4"
+   "lua-resty-reqargs >= 1.4",
+   "lua-resty-upload >= 0.09",
+   "lua-resty-nettle >= 0.105"
 }
 build = {
    type = "builtin",
